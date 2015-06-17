@@ -6,4 +6,5 @@
 * [Authentication](authentication/README.md)
 * [Config](config/README.md)
 * [Search](search/README.md)
+* [Images](images/README.md)
 

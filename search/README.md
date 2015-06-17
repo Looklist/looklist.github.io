@@ -2,6 +2,10 @@
 
 Perform a search
 
+## Current Tags
+
+**For a full list of current categories and tags visit: [https://www.lookli.st/dev/search](https://www.lookli.st/dev/search)**
+
 ## Image search
 
 After a user chooses tags to search on, this is the request you'll make.
