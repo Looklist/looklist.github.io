@@ -1,7 +1,5 @@
 #/bin/bash
-
-gitbook build
-
 rm -rf docs
+gitbook build
 mv _book docs
 rm docs/.git
