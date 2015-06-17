@@ -1,5 +1,3 @@
 # Looklist Developers
 
 ## Hello
-
-
