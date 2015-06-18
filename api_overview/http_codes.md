@@ -21,4 +21,6 @@ In addition to the plain reason, responses will also use HTTP status codes for t
 
 * __404__ - Not found
 
+* __429__ - Rate limit exceeded.  **Back the fuck off!**
+
 * __500__ - Server error

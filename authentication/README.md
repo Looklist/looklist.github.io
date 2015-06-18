@@ -30,4 +30,23 @@ $.ajax({
 
 ## Authentication Errors
 
+```
+{
+	"status": "failure",
+	"reason": "no api token present"
+}
+```
 
+```
+{
+	"status": "failure",
+	"reason": "invalid api token"
+}
+```
+
+```
+{
+	"status": "failure",
+	"reason": "invalid domain"
+}
+```

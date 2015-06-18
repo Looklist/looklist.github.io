@@ -5,9 +5,9 @@
         
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <title>Welcome To Looklist | Hi.</title>
+        <title>Images | Hi.</title>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <meta name="description" content="Welcome to the Looklist Developer Pages.">
+        <meta name="description" content="">
         <meta name="generator" content="GitBook 2.1.0">
         
         
@@ -15,18 +15,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-status-bar-style" content="black">
-        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
-        <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
         
-    <link rel="stylesheet" href="gitbook/style.css">
+    <link rel="stylesheet" href="../gitbook/style.css">
     
     
 
         
     
     
-    <link rel="next" href="./api_overview/index.html" />
     
+    <link rel="prev" href="../search/index.html" />
     
 
         
@@ -34,7 +34,7 @@
     <body>
         
         
-    <div class="book" data-level="0" data-basepath="." data-revision="Wed Jun 17 2015 17:30:34 GMT-0600 (MDT)">
+    <div class="book" data-level="5" data-basepath=".." data-revision="Wed Jun 17 2015 17:30:34 GMT-0600 (MDT)">
     
 
 <div class="book-summary">
@@ -51,10 +51,10 @@
 
         
     
-        <li class="chapter active" data-level="0" data-path="index.html">
+        <li class="chapter " data-level="0" data-path="index.html">
             
                 
-                    <a href="./index.html">
+                    <a href="../index.html">
                         <i class="fa fa-check"></i>
                         
                         Welcome To Looklist
@@ -67,7 +67,7 @@
         <li class="chapter " data-level="1" data-path="api_overview/index.html">
             
                 
-                    <a href="./api_overview/index.html">
+                    <a href="../api_overview/index.html">
                         <i class="fa fa-check"></i>
                         
                             <b>1.</b>
@@ -83,7 +83,7 @@
         <li class="chapter " data-level="1.1" data-path="api_overview/http_codes.html">
             
                 
-                    <a href="./api_overview/http_codes.html">
+                    <a href="../api_overview/http_codes.html">
                         <i class="fa fa-check"></i>
                         
                             <b>1.1.</b>
@@ -103,7 +103,7 @@
         <li class="chapter " data-level="2" data-path="authentication/index.html">
             
                 
-                    <a href="./authentication/index.html">
+                    <a href="../authentication/index.html">
                         <i class="fa fa-check"></i>
                         
                             <b>2.</b>
@@ -118,7 +118,7 @@
         <li class="chapter " data-level="3" data-path="config/index.html">
             
                 
-                    <a href="./config/index.html">
+                    <a href="../config/index.html">
                         <i class="fa fa-check"></i>
                         
                             <b>3.</b>
@@ -133,7 +133,7 @@
         <li class="chapter " data-level="4" data-path="search/index.html">
             
                 
-                    <a href="./search/index.html">
+                    <a href="../search/index.html">
                         <i class="fa fa-check"></i>
                         
                             <b>4.</b>
@@ -145,10 +145,10 @@
             
         </li>
     
-        <li class="chapter " data-level="5" data-path="images/index.html">
+        <li class="chapter active" data-level="5" data-path="images/index.html">
             
                 
-                    <a href="./images/index.html">
+                    <a href="../images/index.html">
                         <i class="fa fa-check"></i>
                         
                             <b>5.</b>
@@ -255,7 +255,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="./" >Hi.</a>
+        <a href="../" >Hi.</a>
     </h1>
 </div>
 
@@ -265,9 +265,84 @@
                 
                     <section class="normal" id="section-">
                     
-                        <h1 id="hi">Hi.</h1>
-<p>Welcome to the Looklist Developer Pages.</p>
-<p><strong>The Looklist API is currently in beta</strong>.  But don&apos;t let that stop you.  If you have an awesome idea, let&apos;s chat: <a href="mailto:dev@lookli.st" target="_blank">dev@lookli.st</a></p>
+                        <h1 id="images">Images</h1>
+<p>All looklist images are served from a global CDN.  The path to images must be built.</p>
+<h2 id="image-object">Image Object</h2>
+<p>A single image object explained:</p>
+<pre><code>{
+    width: 500,
+    height: 750,
+    filename: &quot;8a6f3c05-66eb-4ad9-812b-2feff30695e6.jpg&quot;,
+    _user: &quot;&quot;,
+    source_image: &quot;http://chicametipo.com.br/blog/wp-content/uploads/2014/10/14e9de55ea160b7c0bb37979df743820.jpg&quot;,
+    source_url: &quot;http://chicametipo.com.br/2014/combo-do-verao/&amp;amp;amp;setId=5580b09cca2df74d2747a608&quot;,
+    _group: &quot;5494b6d5b126c448eae315db&quot;,
+    _id: &quot;5580ba09aff64c50278a2ac7&quot;,
+    weight: null,
+    shortUrl: &quot;https://www.lookli.st/looks/5580ba09aff64c50278a2ac7&quot;,
+    tags: {
+        gender: {
+            default: [
+                &quot;female&quot;
+            ]
+        }
+    }
+}
+</code></pre><p><code>_id</code> : The image id.  Used to make api requests about a specific image</p>
+<p><code>width</code> : The original image width in pixels</p>
+<p><code>height</code> : The original image height in pixels</p>
+<p><code>filename</code> : The image filename.  Used to build the url for the image</p>
+<p><code>_user</code> : The user id of the person who created this image.  <strong>Note</strong>: This may be blank.  Images created during our private beta do not have user information associated</p>
+<p><code>source_image</code> : The original source image.  Where the image came from</p>
+<p><code>source_url</code> : The original site or page within a site where the image came from</p>
+<p><code>_group</code> : The group id (corresponds to the site...style, hair, etc.)</p>
+<p><code>weight</code> : How closely this image matches a search (or another image in the case of similar search).  Anything 0.9 or higher should be considered an exact match. <strong>Note</strong>: May be null.</p>
+<p><code>shortUrl</code> : <strong>DEPRECATED</strong> Do not use this.</p>
+<p><code>tags</code> : Shows a subset of the tags on this image.  Currently we only publicly display the &apos;gender&apos; tag.  All other tags are hidden.</p>
+<h2 id="display-an-image">Display An Image</h2>
+<p>After you&apos;ve performed a search, you&apos;ll have an array of image objects:</p>
+<pre><code>[
+    ...
+    {
+        width: 500,
+        height: 750,
+        filename: &quot;8a6f3c05-66eb-4ad9-812b-2feff30695e6.jpg&quot;,
+        _user: &quot;&quot;,
+        source_image: &quot;http://chicametipo.com.br/blog/wp-content/uploads/2014/10/14e9de55ea160b7c0bb37979df743820.jpg&quot;,
+        source_url: &quot;http://chicametipo.com.br/2014/combo-do-verao/&amp;amp;amp;setId=5580b09cca2df74d2747a608&quot;,
+        _group: &quot;5494b6d5b126c448eae315db&quot;,
+        _id: &quot;5580ba09aff64c50278a2ac7&quot;,
+        weight: null,
+        shortUrl: &quot;https://www.lookli.st/looks/5580ba09aff64c50278a2ac7&quot;,
+        tags: {
+            gender: {
+                default: [
+                    &quot;female&quot;
+                ]
+            }
+        }
+    },
+    ...
+]
+</code></pre><p>You&apos;ll also need to grab the <code>assetPath</code> from the <a href="../config/index.html">config</a> api response.</p>
+<p>Once you have these items, you can build the image url like so:</p>
+<pre><code>var imageUrl = config.assetPath + &apos;/images/&apos; + image.filename;
+</code></pre><p>You&apos;ll be left with a url that looks like:</p>
+<pre><code>//img.lookli.st/ll-1.0.0/images/8a6f3c05-66eb-4ad9-812b-2feff30695e6.jpg
+</code></pre><p>Notice that the https(s) prefix is not added.  This is because images are available over http OR https...your choice.</p>
+<p><a href="http://img.lookli.st/ll-1.0.0/images/8a6f3c05-66eb-4ad9-812b-2feff30695e6.jpg" target="_blank">http://img.lookli.st/ll-1.0.0/images/8a6f3c05-66eb-4ad9-812b-2feff30695e6.jpg</a></p>
+<p><a href="https://img.lookli.st/ll-1.0.0/images/8a6f3c05-66eb-4ad9-812b-2feff30695e6.jpg" target="_blank">https://img.lookli.st/ll-1.0.0/images/8a6f3c05-66eb-4ad9-812b-2feff30695e6.jpg</a></p>
+<p>Additionally, you may (optionally) specify the width and/or height of the image in your request.  If no height or width is specified, the original image will be returned.</p>
+<p>The aspect ratio of the image is always maintained.  If you specify both width and height, it will return whichever results in a larger overall image.</p>
+<p><strong>Note</strong>: There is no guarantee that the image returned will be exactly the width and/or height specified.</p>
+<p>For example:
+<a href="http://img.lookli.st/ll-1.0.0/images/8a6f3c05-66eb-4ad9-812b-2feff30695e6.jpg?width=200" target="_blank">http://img.lookli.st/ll-1.0.0/images/8a6f3c05-66eb-4ad9-812b-2feff30695e6.jpg?width=200</a></p>
+<p><a href="http://img.lookli.st/ll-1.0.0/images/8a6f3c05-66eb-4ad9-812b-2feff30695e6.jpg?width=200&amp;height=200" target="_blank">http://img.lookli.st/ll-1.0.0/images/8a6f3c05-66eb-4ad9-812b-2feff30695e6.jpg?width=200&amp;height=200</a></p>
+<h3 id="allowed-widths">Allowed Widths</h3>
+<p>200, 209, 258, 255, 400, 510, 516</p>
+<h3 id="allowed-heights">Allowed Heights</h3>
+<p>50, 100, 200, 300</p>
+<p><strong>Need more?</strong> Contact us at <a href="mailto:dev@lookli.st" target="_blank">dev@lookli.st</a></p>
 
                     
                     </section>
@@ -278,14 +353,14 @@
         </div>
 
         
+        <a href="../search/index.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: Search"><i class="fa fa-angle-left"></i></a>
         
-        <a href="./api_overview/index.html" class="navigation navigation-next navigation-unique" aria-label="Next page: API Overview"><i class="fa fa-angle-right"></i></a>
         
     </div>
 </div>
 
         
-<script src="gitbook/app.js"></script>
+<script src="../gitbook/app.js"></script>
 
 <script>
 require(["gitbook"], function(gitbook) {

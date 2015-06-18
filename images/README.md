@@ -102,7 +102,7 @@ Notice that the https(s) prefix is not added.  This is because images are availa
 
 Additionally, you may (optionally) specify the width and/or height of the image in your request.  If no height or width is specified, the original image will be returned.
 
-The aspect ratio of the image is always maintained.  If you specify both width and height, it will return whichever results in a larger overall image.
+**The aspect ratio of the image is always maintained**.  If you specify both width and height, it will return whichever results in a larger overall image.
 
 **Note**: There is no guarantee that the image returned will be exactly the width and/or height specified.
 
