@@ -5,7 +5,7 @@
         
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <title>Config | Hi.</title>
+        <title>Rate Limiting | Hi.</title>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
         <meta name="generator" content="GitBook 2.1.0">
@@ -25,10 +25,10 @@
         
     
     
-    <link rel="next" href="../search/index.html" />
+    <link rel="next" href="../authentication/index.html" />
     
     
-    <link rel="prev" href="../authentication/index.html" />
+    <link rel="prev" href="../api_overview/http_codes.html" />
     
 
         
@@ -36,7 +36,7 @@
     <body>
         
         
-    <div class="book" data-level="3" data-basepath=".." data-revision="Wed Jun 17 2015 18:31:06 GMT-0600 (MDT)">
+    <div class="book" data-level="1.2" data-basepath=".." data-revision="Wed Jun 17 2015 18:31:06 GMT-0600 (MDT)">
     
 
 <div class="book-summary">
@@ -97,7 +97,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.2" data-path="api_overview/rate_limiting.html">
+        <li class="chapter active" data-level="1.2" data-path="api_overview/rate_limiting.html">
             
                 
                     <a href="../api_overview/rate_limiting.html">
@@ -132,7 +132,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="3" data-path="config/index.html">
+        <li class="chapter " data-level="3" data-path="config/index.html">
             
                 
                     <a href="../config/index.html">
@@ -282,35 +282,10 @@
                 
                     <section class="normal" id="section-">
                     
-                        <h1 id="config">Config</h1>
-<p>Returns information about the site, filters, and tags that are used in various api requests.</p>
-<h2 id="get-config">Get Config</h2>
-<p>Retrieves the global config</p>
-<h3 id="endpoint">Endpoint</h3>
-<p><code>/config</code> (GET)</p>
-<p>Full URL: <code>https://api.lookli.st/v1/config</code></p>
-<h3 id="request-params">Request Params</h3>
-<p>none</p>
-<h3 id="response">Response</h3>
-<h4 id="success">Success</h4>
-<pre><code>{
-    &apos;masterConfig&apos;: {
-        ... // The full groups / categories / tag config
-    },
-    &apos;assetPath&apos;: &quot;//img.lookli.st/ll-1.0.0&quot;, // The base path for assets (images)
-    &apos;scriptStylePath&apos;: &quot;//www.lookli.st/1.0.5&quot;, // The base path to retrieve static css and js from
-    &apos;baseUrl&apos;: &quot;https://www.lookli.st&quot;, // Base URLs
-    &apos;baseApiUrl&apos;: &quot;https://api.lookli.st&quot;,
-    &apos;baseUrlStyle&apos;: &quot;https://style.lookli.st&quot;,
-    &apos;baseUrlHair&apos;: &quot;https://hair.lookli.st&quot;
-}
-</code></pre><h4 id="failure">Failure</h4>
-<h5 id="server-error-http-code-500">Server error  (HTTP Code: 500)</h5>
-<pre><code>{
-  &apos;status&apos;: &apos;failure&apos;,
-  &apos;reason&apos;: &apos;server error&apos;
-}
-</code></pre>
+                        <h1 id="rate-limiting">Rate Limiting</h1>
+<p>Looklist rate-limits api requests based on both IP address and <code>apiToken</code>.</p>
+<p>During our api beta period, exact rate limits will not be published.  Please use common sense and don&apos;t bombard the api with requests.  If you think you&apos;ll need a high rate limit for your app please contact us at <a href="mailto:dev@lookli.st" target="_blank">dev@lookli.st</a> <strong>before</strong> your app is in production.</p>
+
                     
                     </section>
                 
@@ -320,10 +295,10 @@
         </div>
 
         
-        <a href="../authentication/index.html" class="navigation navigation-prev " aria-label="Previous page: Authentication"><i class="fa fa-angle-left"></i></a>
+        <a href="../api_overview/http_codes.html" class="navigation navigation-prev " aria-label="Previous page: HTTP Codes and Errors"><i class="fa fa-angle-left"></i></a>
         
         
-        <a href="../search/index.html" class="navigation navigation-next " aria-label="Next page: Search"><i class="fa fa-angle-right"></i></a>
+        <a href="../authentication/index.html" class="navigation navigation-next " aria-label="Next page: Authentication"><i class="fa fa-angle-right"></i></a>
         
     </div>
 </div>
