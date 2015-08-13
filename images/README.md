@@ -91,14 +91,14 @@ var imageUrl = config.assetPath + '/images/' + image.filename;
 You'll be left with a url that looks like:
 
 ```
-//img.lookli.st/ll-1.0.0/images/8a6f3c05-66eb-4ad9-812b-2feff30695e6.jpg
+//assets.lookli.st/images/8a6f3c05-66eb-4ad9-812b-2feff30695e6.jpg
 ```
 
 Notice that the https(s) prefix is not added.  This is because images are available over http OR https...your choice.
 
-[http://img.lookli.st/ll-1.0.0/images/8a6f3c05-66eb-4ad9-812b-2feff30695e6.jpg](http://img.lookli.st/ll-1.0.0/images/8a6f3c05-66eb-4ad9-812b-2feff30695e6.jpg)
+[http://assets.lookli.st/ll-1.0.0/images/8a6f3c05-66eb-4ad9-812b-2feff30695e6.jpg](http://assets.lookli.st/images/8a6f3c05-66eb-4ad9-812b-2feff30695e6.jpg)
 
-[https://img.lookli.st/ll-1.0.0/images/8a6f3c05-66eb-4ad9-812b-2feff30695e6.jpg](https://img.lookli.st/ll-1.0.0/images/8a6f3c05-66eb-4ad9-812b-2feff30695e6.jpg)
+[https://assets.lookli.st/images/8a6f3c05-66eb-4ad9-812b-2feff30695e6.jpg](https://assets.lookli.st/images/8a6f3c05-66eb-4ad9-812b-2feff30695e6.jpg)
 
 Additionally, you may (optionally) specify the width and/or height of the image in your request.  If no height or width is specified, the original image will be returned.
 
@@ -107,16 +107,12 @@ Additionally, you may (optionally) specify the width and/or height of the image 
 **Note**: There is no guarantee that the image returned will be exactly the width and/or height specified.
 
 For example:
-[http://img.lookli.st/ll-1.0.0/images/8a6f3c05-66eb-4ad9-812b-2feff30695e6.jpg?width=200](http://img.lookli.st/ll-1.0.0/images/8a6f3c05-66eb-4ad9-812b-2feff30695e6.jpg?width=200)
-
-[http://img.lookli.st/ll-1.0.0/images/8a6f3c05-66eb-4ad9-812b-2feff30695e6.jpg?width=200&height=200](http://img.lookli.st/ll-1.0.0/images/8a6f3c05-66eb-4ad9-812b-2feff30695e6.jpg?width=200&height=200)
+[http://assets.lookli.st/images/8a6f3c05-66eb-4ad9-812b-2feff30695e6w516.jpg](http://assets.lookli.st/images/8a6f3c05-66eb-4ad9-812b-2feff30695e6w516.jpg)
 
 
 ### Allowed Widths
 
-200, 209, 258, 255, 400, 510, 516
+200, 258, 400, 516, 516, 800
 
-### Allowed Heights
-50, 100, 200, 300
 
 **Need more?** Contact us at [dev@lookli.st](mailto:dev@lookli.st)
