@@ -96,7 +96,7 @@ You'll be left with a url that looks like:
 
 Notice that the https(s) prefix is not added.  This is because images are available over http OR https...your choice.
 
-[http://assets.lookli.st/ll-1.0.0/images/8a6f3c05-66eb-4ad9-812b-2feff30695e6.jpg](http://assets.lookli.st/images/8a6f3c05-66eb-4ad9-812b-2feff30695e6.jpg)
+[http://assets.lookli.st/images/8a6f3c05-66eb-4ad9-812b-2feff30695e6.jpg](http://assets.lookli.st/images/8a6f3c05-66eb-4ad9-812b-2feff30695e6.jpg)
 
 [https://assets.lookli.st/images/8a6f3c05-66eb-4ad9-812b-2feff30695e6.jpg](https://assets.lookli.st/images/8a6f3c05-66eb-4ad9-812b-2feff30695e6.jpg)
 
